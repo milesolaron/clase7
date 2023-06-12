@@ -17,3 +17,14 @@ function validarDescripcionRegalo(descripcionRegalo) {
     }
 } 
 
+function validarNombre(nombre) {
+    if (nombre.length === 0) {
+        return "El campo nombre debe tener al menos 1 caracteres"
+    }
+
+    if (nombre.length >= 50) {
+        return "El campo debe tener menos de 50 caracteres"
+    }
+
+    return "";
+}
