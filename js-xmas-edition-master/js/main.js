@@ -97,5 +97,3 @@ function validarFormulario(event) {
 
 const $formulario = document.querySelector("#carta-a-santa");
 $formulario.addEventListener("submit", validarFormulario);
-
-  }
